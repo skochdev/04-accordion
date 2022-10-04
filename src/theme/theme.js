@@ -1,5 +1,5 @@
 export const theme = {
-  borders: [0, '2px solid', '4px solid', '8px solid'],
+  borders: [0, '1px solid', '4px solid', '8px solid'],
   radii: {
     none: '0',
     normal: '0.25rem',
@@ -13,7 +13,7 @@ export const theme = {
     primary: '#07c',
     secondary: '#05a',
     accent: '#fda031',
-    muted: '#b2b2b2',
+    muted: '#6c6565',
   },
   fontSizes: {
     xs: '12px',

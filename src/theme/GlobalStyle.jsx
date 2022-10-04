@@ -14,18 +14,27 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #32c3de;
+    height: 100vh;
+    
+  }
+
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   }
-  
+
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
-  h1,h2,h3,h4,h5,h6,p {
+
+  h1, h2, h3, h4, h5, h6, p {
     margin: 0;
   }
 
